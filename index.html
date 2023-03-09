@@ -12,21 +12,43 @@
 <body>
     <header class="grid-con" id="main-header">
         <!-- col-span-full:for mobile, m-col-start-5:for tablet, m-col-end-13:for tablet, l-col-start-6:for desktop, l-col-end-13:for desktop -->
-        <nav class="box col-span-full m-col-start-5 m-col-end-13 l-col-start-6 l-col-end-13" id="main-nav">
+        <nav class="box col-span-1 m-col-span-1 l-col-span-8" id="main-nav">
             Nav
         </nav>
-        <div class="box col-start-2 col-end-4 m-col-start-1 m-col-end-3 l-col-end-4" id="main-logo">Logo</div>
-        <div class="box col-start-2 col-end-4 m-col-start-1 m-col-end-3 l-col-end-4" id="main-logo">Search</div>
+        <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-span-2" id="main-logo">Logo</div>
+        <div class="box col-span-1 m-col-start-12 m-col-end-13 l-col-span-2" id="main-search">Search</div>
     </header>
     <main>
-        <section class="grid-con" id="hero-con">
-            <div class="box col-span-full">Hero Image</div>
+        <section class="box col-auto" id="hero-con">
+            Hero Image
         </section>
         <section class="grid-con" id="products">
-            <div class="box col-span-2 m-col-span-3">Product 1</div>
-            <div class="box col-span-2 m-col-span-3">Product 2</div>
-            <div class="box col-span-2 m-col-span-3">Product 3</div>
-            <div class="box col-span-2 m-col-span-3">Product 4</div>
+            <div class="col-span-4 m-col-span-6 l-col-span-3">
+                <div class="flex-product">
+                    <div class="box" id="product-box">Product 1</div>
+                    <div id="product-text">Product 1 text and button</div> 
+                </div>
+            </div>
+            <div class="col-span-4 m-col-span-6 l-col-span-3">
+                <div class="flex-product">
+                    <div class="box" id="product-box">Product 2</div>
+                    <div id="product-text">Product 2 text and button</div> 
+                </div>
+            </div>
+            <div class="col-span-4 m-col-span-6 l-col-span-3">
+                <div class="flex-product">
+                    <div class="box" id="product-box">Product 3</div>
+                    <div id="product-text">Product 3 text and button</div> 
+                </div>
+            </div>
+            <div class="col-span-4 m-col-span-6 l-col-span-3">
+                <div class="flex-product">
+                    <div class="box" id="product-box">Product 4</div>
+                    <div id="product-text">Product 4 text and button</div> 
+                </div>
+            </div>
+
+
         </section>
         <section class="grid-con" id="promo-social">
             <div class="box col-start-1 col-end-4 m-col-start-1 m-col-end-10 l-col-start-1 l-col-end-9">Promotion</div>
@@ -34,7 +56,7 @@
             
         </section>
     </main>
-    <footer class="box col-auito">
+    <footer class="box col-auto">
         Footer
     </footer>
 
