@@ -12,8 +12,42 @@
 
  */
 
-@media screen and (min-width: 768px) {
+ /* 2. Main Nav */
+
+@media screen and (min-width: 1200px) {
     #main-logo {
         order: -1;
     }
+}
+
+/* 3. Main Hero Image */
+
+#hero-con {
+    height: 390px;
+}
+
+@media screen and (min-width: 1200px) {
+    #hero-con {
+        height: 694px;
+    }
+}
+
+/* 4. Product */
+
+.flex-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#product-box {
+    order: -1;
+    height: 390px;
+}
+
+#product-text {
+    order: 1;
+    margin-top: 20px;
+    text-align: center;
 }
