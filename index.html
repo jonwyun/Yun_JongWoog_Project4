@@ -10,54 +10,74 @@
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    <h1 class="hidden">Quatro</h1>
     <header class="grid-con" id="main-header">
-        <!-- col-span-full:for mobile, m-col-start-5:for tablet, m-col-end-13:for tablet, l-col-start-6:for desktop, l-col-end-13:for desktop -->
+        <h2 class="hidden">Top Navigation</h2>
         <nav class="box col-span-1 m-col-span-1 l-col-span-8" id="main-nav">
             Nav
+            <h3 class="hidden">Main Navigation</h3>
         </nav>
         <div class="box col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-span-2" id="main-logo">Logo</div>
         <div class="box col-span-1 m-col-start-12 m-col-end-13 l-col-span-2" id="main-search">Search</div>
     </header>
+
     <main>
         <section class="box col-auto" id="hero-con">
             Hero Image
+            <h2 class="hidden">Hero Image</h2>
         </section>
         <section class="grid-con" id="products">
+            <h2 class="hidden">Products</h2>
             <div class="col-span-4 m-col-span-6 l-col-span-3">
                 <div class="flex-product">
-                    <div class="box" id="product-box">Product 1</div>
-                    <div id="product-text">Product 1 text and button</div> 
+                    <div class="box product-box">Product 1</div>
+                    <div class="product-text">Product 1 text and button</div> 
                 </div>
             </div>
             <div class="col-span-4 m-col-span-6 l-col-span-3">
                 <div class="flex-product">
-                    <div class="box" id="product-box">Product 2</div>
-                    <div id="product-text">Product 2 text and button</div> 
+                    <div class="box product-box">Product 2</div>
+                    <div class="product-text">Product 2 text and button</div> 
                 </div>
             </div>
             <div class="col-span-4 m-col-span-6 l-col-span-3">
                 <div class="flex-product">
-                    <div class="box" id="product-box">Product 3</div>
-                    <div id="product-text">Product 3 text and button</div> 
+                    <div class="box product-box">Product 3</div>
+                    <div class="product-text">Product 3 text and button</div> 
                 </div>
             </div>
             <div class="col-span-4 m-col-span-6 l-col-span-3">
                 <div class="flex-product">
-                    <div class="box" id="product-box">Product 4</div>
-                    <div id="product-text">Product 4 text and button</div> 
+                    <div class="box product-box">Product 4</div>
+                    <div class="product-text">Product 4 text and button</div> 
                 </div>
             </div>
-
-
         </section>
-        <section class="grid-con" id="promo-social">
-            <div class="box col-start-1 col-end-4 m-col-start-1 m-col-end-10 l-col-start-1 l-col-end-9">Promotion</div>
-            <div class="box col-start-4 col-end-5 m-col-start-10 m-col-end-13 l-col-start-9 l-col-end-13">SM</div>
-            
+        <section class="col-auto" id="brand">
+            <div class="grid-con">
+                <h2 class="hidden">Brand Story</h2>
+                <div class="box col-span-full l-col-start-1 l-col-end-7" id="brand-movie">Brand Movie</div>
+                <div class="box col-span-full l-col-start-7 l-col-end-13" id="brand-text">Brand Story - Text and Button</div> 
+            </div>           
+        </section>
+        <section class="grid-con" id="contact-us">
+            <h2 class="hidden">Contact Us</h2>
+            <div class="col-span-full" id="contact-us-text">Contact Us - Text and Button</div>            
         </section>
     </main>
-    <footer class="box col-auto">
-        Footer
+
+    <footer class="col-auto" id="footer">
+        <div class="grid-con">
+            <h2 class="hidden">Footer</h2>
+            <nav class="box col-span-2 m-col-span-3 l-col-span-8" id="bottom-nav">
+                Bottom Nav
+                <h3 class="hidden">Bottom Navigation</h3>
+            </nav>
+            <div class="box col-start-4 col-end-5 m-col-start-11 m-col-end-13 l-col-start-10 l-col-end-13" id="social-link">
+                Social Link
+            </div>
+            <div class="col-span-full" id="copyright">Copyright text</div>
+        </div>
     </footer>
 
     <script src="js/main.js"></script>
