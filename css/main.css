@@ -4,11 +4,10 @@
     1.  General Styles
     2.  Main Nav
     3.  Main Hero Image
-    4.  Main Hero Image Contact
-    5.  Why Couples Resort
-    6.  About & FAQ
-    7.  Contact Form
-    8.  Footer
+    4.  Product
+    5.  Brand Story
+    6.  Contact Us
+    7.  Footer
 
  */
 
@@ -41,13 +40,76 @@
     margin-top: 35px;
 }
 
-#product-box {
+.product-box {
     order: -1;
     height: 390px;
 }
 
-#product-text {
+.product-text {
     order: 1;
     margin-top: 20px;
     text-align: center;
+}
+
+/* 5. Brand Story */
+
+#brand {
+    background-color: #E2E0E0;
+    margin-top: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#brand-movie {
+    height: 244px;
+}
+
+@media screen and (min-width: 768px) {
+    #brand-movie {
+        height: 546px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #brand-movie {
+        height: 428px;
+    }
+}
+
+#brand-text {
+    height: 337px;
+    border: solid 1px black;
+    background-color: #fff;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+    #brand-text {
+        height: 428px;
+    }
+}
+
+/* 6. Contact Us */
+
+#contact-us-text {
+    height: 337px;
+    border: solid 1px black;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+/* 7. footer */
+
+footer {
+    background-color: #E2E0E0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
