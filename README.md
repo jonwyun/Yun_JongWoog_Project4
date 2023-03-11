@@ -7,10 +7,10 @@ This project requires each team or individual to build a mobile-first responsive
 
 The web page prototype should include the following features:
 
-    Mobile-first approach: The web page should be designed with a mobile-first approach, where the layout is optimized for smaller screens and then adjusted for larger screens using CSS grid.
-    CSS grid: The layout should be created using CSS grid, which provides a powerful and flexible system for creating complex layouts.
-    Responsive design: The web page should be designed to be responsive and adjust to different screen sizes and resolutions.
-    Semantic tagging: The HTML5 file should include semantic tagging, which provides meaning and context to the content and improves accessibility and SEO.
+   1. Mobile-first approach: The web page should be designed with a mobile-first approach, where the layout is optimized for smaller screens and then adjusted for larger screens using CSS grid.
+    2. CSS grid: The layout should be created using CSS grid, which provides a powerful and flexible system for creating complex layouts.
+    3. Responsive design: The web page should be designed to be responsive and adjust to different screen sizes and resolutions.
+    4. Semantic tagging: The HTML5 file should include semantic tagging, which provides meaning and context to the content and improves accessibility and SEO.
 
 # Usage
 
